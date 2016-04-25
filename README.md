@@ -377,7 +377,7 @@ import { toggleTodo } from '../actions'
 import TodoList from '../components/TodoList'
 import { makeGetVisibleTodos } from '../selectors'
 
-const makeMapStateToProps= () => {
+const makeMapStateToProps = () => {
   const getVisibleTodos = makeGetVisibleTodos()
   const mapStateToProps = (state, props) => {
     return {
